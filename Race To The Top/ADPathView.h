@@ -1,5 +1,5 @@
 //
-//  ADViewController.h
+//  ADPathView.h
 //  Race To The Top
 //
 //  Created by Angeleah Daidone on 4/5/14.
@@ -8,7 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ADViewController : UIViewController
-@property (strong, nonatomic) IBOutlet UILabel *scoreLabel;
+@interface ADPathView : UIView
 
 @end
