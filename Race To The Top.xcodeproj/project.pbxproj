@@ -24,6 +24,7 @@
 		6200876E18F05BE80006B4D8 /* ADSpaceShipView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6200876D18F05BE80006B4D8 /* ADSpaceShipView.m */; };
 		620087B618F062A40006B4D8 /* Main.iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 620087B518F062A40006B4D8 /* Main.iPad.storyboard */; };
 		620087B818F064C70006B4D8 /* Mount_Fuji_and_Mount_Hoei.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 620087B718F064C70006B4D8 /* Mount_Fuji_and_Mount_Hoei.jpg */; };
+		620087BB18F066BF0006B4D8 /* ADMountainPath.m in Sources */ = {isa = PBXBuildFile; fileRef = 620087BA18F066BF0006B4D8 /* ADMountainPath.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,6 +61,8 @@
 		6200876D18F05BE80006B4D8 /* ADSpaceShipView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ADSpaceShipView.m; sourceTree = "<group>"; };
 		620087B518F062A40006B4D8 /* Main.iPad.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.iPad.storyboard; path = ../Main.iPad.storyboard; sourceTree = "<group>"; };
 		620087B718F064C70006B4D8 /* Mount_Fuji_and_Mount_Hoei.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Mount_Fuji_and_Mount_Hoei.jpg; sourceTree = "<group>"; };
+		620087B918F066BF0006B4D8 /* ADMountainPath.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ADMountainPath.h; sourceTree = "<group>"; };
+		620087BA18F066BF0006B4D8 /* ADMountainPath.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ADMountainPath.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -123,6 +126,8 @@
 				6200874718F05B7D0006B4D8 /* ADAppDelegate.m */,
 				6200874918F05B7D0006B4D8 /* Main.iPhone.storyboard */,
 				620087B518F062A40006B4D8 /* Main.iPad.storyboard */,
+				620087B918F066BF0006B4D8 /* ADMountainPath.h */,
+				620087BA18F066BF0006B4D8 /* ADMountainPath.m */,
 				6200876C18F05BE80006B4D8 /* ADSpaceShipView.h */,
 				6200876D18F05BE80006B4D8 /* ADSpaceShipView.m */,
 				6200874C18F05B7D0006B4D8 /* ADViewController.h */,
@@ -266,6 +271,7 @@
 				6200876E18F05BE80006B4D8 /* ADSpaceShipView.m in Sources */,
 				6200874418F05B7D0006B4D8 /* main.m in Sources */,
 				6200874E18F05B7D0006B4D8 /* ADViewController.m in Sources */,
+				620087BB18F066BF0006B4D8 /* ADMountainPath.m in Sources */,
 				6200874818F05B7D0006B4D8 /* ADAppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
