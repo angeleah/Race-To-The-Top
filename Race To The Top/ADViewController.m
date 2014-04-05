@@ -34,8 +34,6 @@
     UIPanGestureRecognizer *panRecognizer = [[UIPanGestureRecognizer alloc] initWithTarget:self action:@selector(panDetected:)];
     [self.pathView addGestureRecognizer:panRecognizer];
     
-    self.timer = [NSTimer scheduledTimerWithTimeInterval:ADTIMER_INTERVAL target:self selector:@selector(timerFired) userInfo:nil repeats:YES];
-    
     self.scoreLabel.text = [NSString stringWithFormat:@"Score: %i", ADMAP_STARTING_SCORE];
 }
 
@@ -49,12 +47,34 @@
 {
     CGPoint fingerLocation = [panRecognizer locationInView:self.pathView];
     
-    for (UIBezierPath *path in [ADMountainPath mountainPathsForRect:self.pathView.bounds]) {
-        UIBezierPath *tapTarget = [ADMountainPath tapTargetForPath:path];
+    if (panRecognizer.state == UIGestureRecognizerStateBegan && fingerLocation.y < 750)
+    {
+        self.timer = [NSTimer scheduledTimerWithTimeInterval:ADTIMER_INTERVAL target:self selector:@selector(timerFired) userInfo:nil repeats:YES];
         
-        if ([tapTarget containsPoint:fingerLocation]) {
-            [self decrementScoreByAmount:ADWALL_PENALTY];
+        self.scoreLabel.text = [NSString stringWithFormat:@"Score: %i", ADMAP_STARTING_SCORE];
+    }
+    else if (panRecognizer.state == UIGestureRecognizerStateChanged)
+    {
+        for (UIBezierPath *path in [ADMountainPath mountainPathsForRect:self.pathView.bounds]) {
+            UIBezierPath *tapTarget = [ADMountainPath tapTargetForPath:path];
+            
+            if ([tapTarget containsPoint:fingerLocation]) {
+                [self decrementScoreByAmount:ADWALL_PENALTY];
+            }
         }
+  
+    }
+    else if (panRecognizer.state == UIGestureRecognizerStateEnded && fingerLocation.y <= 165)
+    {
+        [self.timer invalidate];
+        self.timer = nil;
+    }
+    else
+    {
+        UIAlertView *alert = [[UIAlertView alloc]initWithTitle:@"Error" message:@"Make sure to start at the bottom of the path.  Hold your finger down and finish at the top of the path!"  delegate:nil cancelButtonTitle:@"Ok" otherButtonTitles:nil];
+        [alert show];
+        [self.timer invalidate];
+        self.timer = nil;
     }
 }
 
