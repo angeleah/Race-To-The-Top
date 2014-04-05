@@ -13,7 +13,7 @@
 		6200874218F05B7D0006B4D8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6200874018F05B7D0006B4D8 /* InfoPlist.strings */; };
 		6200874418F05B7D0006B4D8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6200874318F05B7D0006B4D8 /* main.m */; };
 		6200874818F05B7D0006B4D8 /* ADAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6200874718F05B7D0006B4D8 /* ADAppDelegate.m */; };
-		6200874B18F05B7D0006B4D8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6200874918F05B7D0006B4D8 /* Main.storyboard */; };
+		6200874B18F05B7D0006B4D8 /* Main.iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6200874918F05B7D0006B4D8 /* Main.iPhone.storyboard */; };
 		6200874E18F05B7D0006B4D8 /* ADViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6200874D18F05B7D0006B4D8 /* ADViewController.m */; };
 		6200875018F05B7D0006B4D8 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6200874F18F05B7D0006B4D8 /* Images.xcassets */; };
 		6200875718F05B7E0006B4D8 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6200875618F05B7E0006B4D8 /* XCTest.framework */; };
@@ -21,6 +21,9 @@
 		6200875918F05B7E0006B4D8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6200873B18F05B7D0006B4D8 /* UIKit.framework */; };
 		6200876118F05B7E0006B4D8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6200875F18F05B7E0006B4D8 /* InfoPlist.strings */; };
 		6200876318F05B7E0006B4D8 /* Race_To_The_TopTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6200876218F05B7E0006B4D8 /* Race_To_The_TopTests.m */; };
+		6200876E18F05BE80006B4D8 /* ADSpaceShipView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6200876D18F05BE80006B4D8 /* ADSpaceShipView.m */; };
+		620087B618F062A40006B4D8 /* Main.iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 620087B518F062A40006B4D8 /* Main.iPad.storyboard */; };
+		620087B818F064C70006B4D8 /* Mount_Fuji_and_Mount_Hoei.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 620087B718F064C70006B4D8 /* Mount_Fuji_and_Mount_Hoei.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,7 +47,7 @@
 		6200874518F05B7D0006B4D8 /* Race To The Top-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Race To The Top-Prefix.pch"; sourceTree = "<group>"; };
 		6200874618F05B7D0006B4D8 /* ADAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ADAppDelegate.h; sourceTree = "<group>"; };
 		6200874718F05B7D0006B4D8 /* ADAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ADAppDelegate.m; sourceTree = "<group>"; };
-		6200874A18F05B7D0006B4D8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6200874A18F05B7D0006B4D8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.iPhone.storyboard; sourceTree = "<group>"; };
 		6200874C18F05B7D0006B4D8 /* ADViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ADViewController.h; sourceTree = "<group>"; };
 		6200874D18F05B7D0006B4D8 /* ADViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ADViewController.m; sourceTree = "<group>"; };
 		6200874F18F05B7D0006B4D8 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
@@ -53,6 +56,10 @@
 		6200875E18F05B7E0006B4D8 /* Race To The TopTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Race To The TopTests-Info.plist"; sourceTree = "<group>"; };
 		6200876018F05B7E0006B4D8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6200876218F05B7E0006B4D8 /* Race_To_The_TopTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Race_To_The_TopTests.m; sourceTree = "<group>"; };
+		6200876C18F05BE80006B4D8 /* ADSpaceShipView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ADSpaceShipView.h; sourceTree = "<group>"; };
+		6200876D18F05BE80006B4D8 /* ADSpaceShipView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ADSpaceShipView.m; sourceTree = "<group>"; };
+		620087B518F062A40006B4D8 /* Main.iPad.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.iPad.storyboard; path = ../Main.iPad.storyboard; sourceTree = "<group>"; };
+		620087B718F064C70006B4D8 /* Mount_Fuji_and_Mount_Hoei.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Mount_Fuji_and_Mount_Hoei.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,7 +121,10 @@
 			children = (
 				6200874618F05B7D0006B4D8 /* ADAppDelegate.h */,
 				6200874718F05B7D0006B4D8 /* ADAppDelegate.m */,
-				6200874918F05B7D0006B4D8 /* Main.storyboard */,
+				6200874918F05B7D0006B4D8 /* Main.iPhone.storyboard */,
+				620087B518F062A40006B4D8 /* Main.iPad.storyboard */,
+				6200876C18F05BE80006B4D8 /* ADSpaceShipView.h */,
+				6200876D18F05BE80006B4D8 /* ADSpaceShipView.m */,
 				6200874C18F05B7D0006B4D8 /* ADViewController.h */,
 				6200874D18F05B7D0006B4D8 /* ADViewController.m */,
 				6200874F18F05B7D0006B4D8 /* Images.xcassets */,
@@ -126,6 +136,7 @@
 		6200873E18F05B7D0006B4D8 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				620087B718F064C70006B4D8 /* Mount_Fuji_and_Mount_Hoei.jpg */,
 				6200873F18F05B7D0006B4D8 /* Race To The Top-Info.plist */,
 				6200874018F05B7D0006B4D8 /* InfoPlist.strings */,
 				6200874318F05B7D0006B4D8 /* main.m */,
@@ -229,9 +240,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				620087B618F062A40006B4D8 /* Main.iPad.storyboard in Resources */,
 				6200875018F05B7D0006B4D8 /* Images.xcassets in Resources */,
+				620087B818F064C70006B4D8 /* Mount_Fuji_and_Mount_Hoei.jpg in Resources */,
 				6200874218F05B7D0006B4D8 /* InfoPlist.strings in Resources */,
-				6200874B18F05B7D0006B4D8 /* Main.storyboard in Resources */,
+				6200874B18F05B7D0006B4D8 /* Main.iPhone.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -250,6 +263,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6200876E18F05BE80006B4D8 /* ADSpaceShipView.m in Sources */,
 				6200874418F05B7D0006B4D8 /* main.m in Sources */,
 				6200874E18F05B7D0006B4D8 /* ADViewController.m in Sources */,
 				6200874818F05B7D0006B4D8 /* ADAppDelegate.m in Sources */,
@@ -283,12 +297,12 @@
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
-		6200874918F05B7D0006B4D8 /* Main.storyboard */ = {
+		6200874918F05B7D0006B4D8 /* Main.iPhone.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				6200874A18F05B7D0006B4D8 /* Base */,
 			);
-			name = Main.storyboard;
+			name = Main.iPhone.storyboard;
 			sourceTree = "<group>";
 		};
 		6200875F18F05B7E0006B4D8 /* InfoPlist.strings */ = {
@@ -380,7 +394,9 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Race To The Top/Race To The Top-Prefix.pch";
 				INFOPLIST_FILE = "Race To The Top/Race To The Top-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 2;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -393,7 +409,9 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Race To The Top/Race To The Top-Prefix.pch";
 				INFOPLIST_FILE = "Race To The Top/Race To The Top-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 2;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -457,6 +475,7 @@
 				6200876818F05B7E0006B4D8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6200876918F05B7E0006B4D8 /* Build configuration list for PBXNativeTarget "Race To The TopTests" */ = {
 			isa = XCConfigurationList;
@@ -465,6 +484,7 @@
 				6200876B18F05B7E0006B4D8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
